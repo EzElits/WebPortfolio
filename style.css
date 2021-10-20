@@ -4,12 +4,12 @@
 
 html, body {
   height: 100%;
-  margin: 0;
-  line-height: 150%;
+  line-height: 100%;
+  overflow-x: hidden;
 }
 
 .parallax1 {
-  background: url(images/aa.jpeg);
+  background: url(images/zz.jpg);
   min-height: 100%;
 }
 
@@ -24,13 +24,13 @@ html, body {
 }
 
 .parallax4 {
-  background: url(images/ee.jpeg);
+  background: url(images/aa.jpeg);
   min-height: 100%;
 }
 
 .parallax1, .parallax2, .parallax3, .parallax4 {
   position: relative;
-  opacity: .50;
+  opacity: .75;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -41,33 +41,67 @@ html, body {
   position: absolute;
   color: white;
   font-size: 550%;
-  top: 38%;
+  top: 68%;
   width: 100%;
-  text-transform: uppercase;
-  letter-spacing: 8px;
   text-shadow: 0 0 10px #000;
-  text-align: center;
+  padding-left: 20px;
 }
 
-.heading-sm {
+h2 {
   position: absolute;
   color: white;
-  font-size: 250%;
-  top: 45%;
+  top: 87%;
   width: 100%;
-  text-transform: uppercase;
-  letter-spacing: 5px;
   text-shadow: 0 0 10px #000;
+  padding-left: 300px;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 300%;
+    position: absolute;
+    color: white;
+    top: 70%;
+    width: 100%;
+    text-shadow: 0 0 10px #000;
+    text-align: center;
+    padding-left: 0;
+  }
+  .webdev {
+  position: absolute;
+  color: white;
+  top: 77%;
+  width: 100%;
+  text-shadow: 0 0 10px #000;
+  padding-left: 250px;
+  }
+
+}
+
+@media (max-width: 360px) {
+  .heading {
+    font-size: 200%;
+    position: absolute;
+    color: white;
+    top: 68%;
+    width: 100%;
+    text-shadow: 0 0 10px #000;
+    text-align: center;
+    padding-left: 0;
+  }
+  .webdev {
+  position: absolute;
+  font-size: 120%;
+  color: white;
+  top: 76%;
+  width: 100%;
+  text-shadow: 0 0 10px #000;
+  padding-left: 0px;
   text-align: center;
+  }
+
 }
 
-.two-col {
-  float: left;
-  width: 42%;
-  padding: 0 4%;
-  text-align: left;
-}
-
-section {
-  overflow: auto;
+.navbar {
+  opacity: .75;
 }
