@@ -156,12 +156,6 @@ h2 {
   width: 37px;
   height: 35px;
 }
-
-/*#eli {
-  width: 20%;
-  height: 20%;
-}*/
-
 .col-12 figure .img-fluid {
   -webkit-filter: blur(3px);
   filter: blur(3px);
@@ -203,4 +197,9 @@ h2 {
   position: relative;
 }
 
-
+.heading, .webdev {
+  color: #fff;
+  text-shadow:
+      0 0 5px #fff,
+      0 0 50px darkgray;
+}
