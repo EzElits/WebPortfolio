@@ -157,12 +157,7 @@ h2 {
   width: 37px;
   height: 35px;
 }
-.col-12 figure .img-fluid {
-  -webkit-filter: blur(3px);
-  filter: blur(3px);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-}
+
 .col-12 figure:hover .img-fluid {
   -webkit-filter: blur(0);
   filter: blur(0);
